@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/first_page">
+    <Button
+
+        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:id="@+id/btnsinglePlayer"
+        android:text="@string/single_player"
+        android:fontFamily="@font/arapey_regular"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:padding="3dp"
+        android:textSize="16sp"
+        android:background="#fbefba"
+        android:layout_margin="5dp"
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDualplayer"
+        android:text="@string/dual_player"
+        android:fontFamily="@font/arapey_regular"
+        android:textStyle="bold"
+        android:layout_below="@id/btnsinglePlayer"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        android:textSize="16sp"
+        android:background="#fbefba"
+        android:layout_margin="5dp"
+        />
+
+</RelativeLayout>
